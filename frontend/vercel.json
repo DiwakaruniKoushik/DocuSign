@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://docusign-production.up.railway.app/$1" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
